@@ -145,3 +145,21 @@ python -m unittest discover tests/
 ## 🛠️ Требования
 - Python 3.8+
 - Все зависимости из `requirements.txt`
+
+  Скрины работы приложения:
+  <img width="1346" height="1089" alt="image" src="https://github.com/user-attachments/assets/b1454924-6302-44fd-8731-151ef202ea7e" />
+  <img width="598" height="650" alt="image" src="https://github.com/user-attachments/assets/3cfe998c-14e6-49ee-922e-7c88804445b5" />
+  <img width="760" height="423" alt="image" src="https://github.com/user-attachments/assets/39398647-ec1b-4e9d-b455-9c507f5602a0" />
+  <img width="761" height="419" alt="image" src="https://github.com/user-attachments/assets/0fbdf0b2-73ad-4df1-a10d-0233260ab2be" />
+  <img width="758" height="955" alt="image" src="https://github.com/user-attachments/assets/1a58c6cb-9ab2-4ff1-b340-8b3ad574dc77" />
+  <img width="2054" height="127" alt="image" src="https://github.com/user-attachments/assets/f60cad80-e5be-4cd7-998f-7db745a86254" />
+  <img width="1813" height="791" alt="image" src="https://github.com/user-attachments/assets/a308c94b-a5b7-4838-8d5d-ceac0dd1278d" />
+
+
+
+
+
+
+
+  
+
