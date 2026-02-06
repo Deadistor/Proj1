@@ -42,12 +42,15 @@ python main.py
 #### Методы:
 
 Обработка и замена NaN(средняя, медиана, удаление)
+
 cleaned_df = cleaner.handle_missing_values(df, strategy="mean") # "median", "drop"
 
 Кодирование категорий(onehot, label)
+
 encoded_df = cleaner.encode_categorical(df, method="onehot") # "label"
 
 Нормализация(Стандартная, minmax)
+
 scaled_df = cleaner.scale_numeric(df, method="standard") # "minmax"
 
 ✅ 3. Анализ данных (`data_analyze.py`)
@@ -100,15 +103,35 @@ use_tls=True )
 
 ---
 ### 📁 Структура проекта
-. ├── main.py # Точка входа
+  ├── main.py # Точка входа
+
   ├── gui_data_loader.py # GUI на Tkinter
+  
   ├── data_loader.py # Загрузка из всех источников
+  
   ├── data_validator.py # Проверка целостности
+  
   ├── data_cleaner.py # Очистка данных
+  
   ├── data_analyze.py # ML и статистика
+  
   ├── data_report.py # Отчёты + email
+  
   ├── requirements.txt # Зависимости
-  └── README.md # Документация
+  
+  ├── README.md # Документация
+  
+  └── tests #Тесты
+  
+      ├── __init__.py
+  
+      ├──  test_data_loader
+
+      ├──  test_data_cleaner
+
+      ├──  test_data_analyze
+
+      └──  test_data_report
 
 ## 🔐 Настройка Gmail для отправки
 1. Включите двухфакторную аутентификацию
